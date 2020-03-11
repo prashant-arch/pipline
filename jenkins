@@ -8,7 +8,7 @@ pipeline{
             }
             }
         }
-stage ('Testing Stage'){
+stage ('Stage Testing'){
 steps{
         withMaven(maven : 'maven 3.6.3'){
             sh 'mvn test'
